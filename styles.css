@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+nav {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -69,12 +69,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border-radius: 20%;
+  border: 3px dotted darkblue;
+  transition: all .9s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.5) rotate(180deg);
 }
 .tag {
   background-color: #efefef;
@@ -167,6 +167,16 @@ a.social:hover {
   clear: both;
 }
 
+.sam-swing {
+  border-radius: 10px;
+  max-width:  320px;
+  height:  auto;
+}
+.experience {
+  padding: 0 10px;
+}
+
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
@@ -202,6 +212,18 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
+
+  .experience {
+    width: 80%;
+    margin:  10px auto;
+  }
+
+  .sam-swing {
+    border-radius: 10px;
+    max-width:  600px;
+    height:  auto;
+  }
+  
 
 }
 
